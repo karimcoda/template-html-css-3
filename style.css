@@ -1,0 +1,258 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(bg/header.gif);
+	background-repeat: repeat-x;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 0.7em;
+	color: #848484;
+}
+p{
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+img{
+	border: 0;
+}
+h1{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 2em;
+	color: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+h3{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1.6em;
+	font-weight: normal;
+	color: #a6a6a6;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+
+}
+#site{
+	width: 900px;
+	margin: 0 auto;
+}
+header{
+	height: 122px;
+	color: #fff;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+header a.current{
+	color: #fff;
+	text-decoration: none;
+}
+.site_title{
+	float: left;
+	margin: 23px 0px 0px 0px;
+}
+.slogan{
+	float: left;
+	color: #91bef5;
+	font-style: italic;
+	font-size: 1em;
+	margin: 31px 0px 0px 20px;
+}
+nav{
+	padding: 73px 0px 0px 0px;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0 auto;
+}
+nav ul li{
+	float: left;
+	border-left: 1px solid #3676c4;
+	border-right: 1px solid #1957aa;
+	padding: 0px;
+	margin: 0px;
+}
+nav ul li a{
+	background-image: url(bg/nav.gif);
+	background-repeat: repeat-x;
+	display: block;
+	font-size: 0.9em;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 12px 15px 12px;
+}
+nav ul li a:hover{
+	background-image: url(bg/nav_h.gif);
+	background-repeat: repeat-x;
+	color: #fff;
+	padding: 15px 12px 15px 12px;
+	margin: 0px;
+}
+#search{
+	float: right;
+	margin: 6px 0px 0px 0px;
+}
+:first-child+html #search { margin: 5px 0 0 0; }
+.magnify{
+	float: left;
+	margin: -17px 0px 0px 0px;
+}
+:first-child+html .magnify { margin: -16px 0 0 0; }
+#search input{
+	width: 150px;
+	background-image: url(bg/input.gif);
+	background-repeat: repeat-x;
+	font-family: helvetica;
+	font-size: 1em;
+	color: #696969;
+	border: 0;
+	padding: 8px 5px 7px 0px;
+}
+main{
+	padding: 0px;
+	margin: 30px 0px 0px 0px;
+}
+#main_left{
+	float: left;
+	width: 550px;
+}
+.welcome{
+	height: 230px; 
+	background-image: url(img/image1.jpg);
+	background-repeat: no-repeat;
+	padding: 40px 0px 0px 0px;
+	margin: 0px;
+}
+.welc1{
+	font-size: 1.6em;
+	color: #000;
+	padding: 20px 15px 0px 15px;
+	margin: 0px 0px 25px 0px;
+}
+.welc2{
+	color: #000;
+	padding: 15px 10px 15px 15px;
+}
+#market{
+	float: left;
+	width: 160px;
+	height: 177px;
+	background-image: url(bg/market.jpg);
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 20px;
+	margin: 0px 30px 0px 0px;
+}
+#market h3{
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+#market a{
+	color: #fff;
+	text-decoration: none;
+
+}
+#market a:hover{
+	color: blue;
+}
+#latest{
+	float: left;
+	width: 320px;
+}
+#latest ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#latest a{
+	color: #3774be; 
+	text-decoration: none;
+}
+ 
+#latest ul li{
+	padding: 7px 15px 7px 15px;
+	margin: 0px;
+	border-bottom: 1px solid #ccc;
+}
+#latest ul li:hover{
+	background-color: #ccc;
+}
+#latest li.even{
+	background-color: #f1f1f1;
+}
+#mainbox{
+	clear: both;
+}
+#main_right{
+	float: right;
+	width: 300px;
+	padding: 0px;
+	margin: 0px;
+} 
+.boxtop{
+	height: 20px;
+	background-image: url(bg/boxtop.gif);
+	background-repeat: no-repeat;
+	font-size: 0.9em;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	padding: 9px 0px 0px 16px;
+	margin: 0px;
+}
+.box{
+	clear: both;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 15px 15px 10px 15px;
+	margin: 0px 0px 25px 0px;
+}
+#news{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#news li{
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;
+	border-bottom: 1px solid #eee;
+}
+.date{
+	font-style: italic;
+	margin: 0px 0px 3px 0px;
+}
+#infobox{
+	height: 80px;
+	background-image: url(bg/info.jpg);
+	background-repeat: no-repeat;
+	padding: 20px 0px 0px 95px;
+	margin: 0px
+}
+#infobox h3{
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+#infobox a{
+	color: #fff;
+	text-decoration: none;
+}
+#infobox a:hover{
+	color: blue;
+}
+#spacer { clear: both; height: 25px; }
+footer{
+	margin-bottom: 0px; 
+	text-align: center;
+}
+footer a{
+	text-decoration: none;
+	color: #000;
+}
+footer a:hover{
+	color: blue;
+}
